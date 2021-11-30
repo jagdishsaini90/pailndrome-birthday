@@ -72,7 +72,9 @@ function App() {
         <button onClick={handleSubmit}>Show</button>
       </form>
       <h3 className={`result ${pos ? "font" : ""}`}>{pos ? result.toLocaleUpperCase() : result}</h3>
+      <h5>
       <a href="https://github.com/jagdishsaini90/pailndrome-birthday">find this repo at Github</a>
+      </h5>
     </div>
   );
 }

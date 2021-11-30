@@ -34,9 +34,10 @@ button {
 }
 
 a {
-  text-decoration: none;
-  color: black;
   cursor: pointer;
+}
+h5 {
+  margin-top: 40%;
 }
 
 @media screen and (max-width: 600px) {
